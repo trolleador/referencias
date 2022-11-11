@@ -22,17 +22,17 @@ class Player:
     def agregar_individual(self, elemento):
         self.arreglo_individual.append(elemento)
 
-yo = Player(1,1)
-tu = Player(0,0)
+pepe = Player(1,1)
+maria = Player(0,0)
 
-yo.agregar_compartido("compartido desde yo")
-tu.agregar_compartido("compartido desde tu")
+pepe.agregar_compartido("compartido desde yo")
+maria.agregar_compartido("compartido desde tu")
 
-yo.agregar_individual("invividual de yo")
-tu.agregar_individual("individual de tu")
+pepe.agregar_individual("invividual de yo")
+maria.agregar_individual("individual de tu")
 
-print(yo.arreglo_compartido)
-print(tu.arreglo_compartido)
-print(yo.arreglo_individual)
-print(tu.arreglo_individual)
+print(pepe.arreglo_compartido)
+print(maria.arreglo_compartido)
+print(pepe.arreglo_individual)
+print(maria.arreglo_individual)
 
